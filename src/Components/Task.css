@@ -1,6 +1,43 @@
 .ListItem {
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: row;
+    border: 1px solid lightgrey;
+    margin: 20px;
+    /* width: 400px; */
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: white;
+    justify-content: space-between;
+    padding: 0px 20px 0px 20px;
+}
+.ListItem:hover{
+    box-shadow: 0 0 10px white;
+    transition: 0.5s;
+    transform:scale(1.1,1.1);
+    -webkit-transform:scale(1.1,1.1);
+    -moz-transform:scale(1.1,1.1);
+}
+.main{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 90px;
+    border: 1px solid dodgerblue;
+    /* width: 600px;
+    height: 400px; */
+    background-color: dodgerblue;
+    border-radius: 5px;
+}
+.main2{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.check{
+    margin-right: 10px;
+}
+.remove{
+    margin-left: 10px;
 }

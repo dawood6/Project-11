@@ -4,12 +4,14 @@ import TaskContainer from './Components/index';
 
 function App() {
   const task = [
-    { title: 'nedfw', done: false ,},
-    { title: 'newtyu', done: true ,},
-    { title: 'nhe', done: false ,},
+    { title: 'Coding', done: true ,},
+    { title: 'Book Reading', done: false ,},
+    { title: 'Dinner', done: false ,},
+    { title: 'Sleep', done: false ,},
   ]
   return (
     <div className="App"> 
+    <h1>Task Box App</h1>
       <TaskContainer tasks={task}  />
     </div>
   );

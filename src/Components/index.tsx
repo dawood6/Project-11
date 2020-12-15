@@ -13,7 +13,8 @@ export interface taskBoxProps {
 const TaskContainer: React.FC<taskBoxProps> = ({ tasks }) => {
 
     return (
-        <div>
+        <div className="main2">
+        <div className="main">
             <div>
                 {tasks.map((task) => {
                     return (
@@ -23,6 +24,7 @@ const TaskContainer: React.FC<taskBoxProps> = ({ tasks }) => {
                     );
                 })}
             </div>
+        </div>
         </div>
     )
 }

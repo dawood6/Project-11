@@ -9,14 +9,15 @@ const Task: React.FC<taskProps> = ({ title, done }) => {
   return (
     <div className="ListItem">
       <input
+        className="check"
         type="checkbox"
         checked={checked}
         onChange={() => {
-          setChecked(!checked);
+        setChecked(!checked);
         }}
       />
       <p>{title}</p>
-      <p>🗑️</p>
+      <p className="remove">🗑️</p>
     </div>
   );
 };
